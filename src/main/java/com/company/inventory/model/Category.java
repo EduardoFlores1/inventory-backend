@@ -10,7 +10,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Size;
 
+// Con esta anotacion especificamos que esta clase es una entidad de nuestra BD
 @Entity
+// Con @table especificamos el nombre de nuestra tabla
 @Table(name = "category")
 public class Category implements Serializable{
 
